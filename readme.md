@@ -67,3 +67,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+##################################################################
+
+1. Use composer to create project (composer create-project laravel/laravel) followed by the name of the project (laravelstore)
+
+2. Test run the project by running "php artisan serve".
+
+3. Create views folders in resources folder
