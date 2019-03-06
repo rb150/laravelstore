@@ -73,6 +73,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 1. Use composer to create project (composer create-project laravel/laravel) followed by the name of the project (laravelstore)
 
-2. Test run the project by running "php artisan serve".
+2. Test run the project by running "php artisan serve" to make sure everything works
 
-3. Create views folders in resources folder
+3. In layouts folder, change "welcome.blade.php" boilerplate
