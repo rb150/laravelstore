@@ -75,4 +75,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 2. Test run the project by running "php artisan serve" to make sure everything works
 
-3. In layouts folder, change "welcome.blade.php" boilerplate
+3. In views folder add layouts, partials, shop, and user folders.  Rename welcom.blade.php to master.blade.php as we will be using a layout/partials concept for our views using the blade templating engine.
+
+4. 
