@@ -16,7 +16,16 @@ will be insterted in these tags from other partials
     @yield('styles') <!--add yield hook for styles tag-->
 </head>
 <body>
-@yield('content')
+<!--include hook is different from yield hook (from stackoverflow:
+include is used for reusable HTML just like a standard PHP include. 
+It does not have that parent/child relationship like yield and section. 
+https://stackoverflow.com/questions/41916127/whats-the-difference-between-laravels-yield-and-include
+-->
+@include('partials.header')
+<div class="container">
+@yield('content') <!--containe content in div with a container class-->
+</div>
+
 <script
 			  src="https://code.jquery.com/jquery-3.3.1.js"
 			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
