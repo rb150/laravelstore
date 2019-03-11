@@ -77,4 +77,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 3. In views folder add layouts, partials, shop, and user folders.  Rename welcom.blade.php to master.blade.php as we will be using a layout/partials concept for our views using the blade templating engine.
 
-4. 
+4. Change file that is rendered in root route to accurate file.  Route is in web.php file in routes folder.  
+
+5. Seed data into database.  First make a model using terminal by using php artisan make:model.  Name model Product and use -m flag to create a migration file. (php artisan make:model Product -m)
+
