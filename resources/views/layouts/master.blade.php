@@ -13,6 +13,7 @@ will be insterted in these tags from other partials
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title')</title> <!--add yield hook for title tag-->   
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{URL::to('src/css.app.css')}}">    
     @yield('styles') <!--add yield hook for styles tag-->
 </head>
 <body>
@@ -23,7 +24,7 @@ https://stackoverflow.com/questions/41916127/whats-the-difference-between-larave
 -->
 @include('partials.header')
 <div class="container">
-@yield('content') <!--containe content in div with a container class-->
+@yield('content') <!--wrap the content in div with a container class-->
 </div>
 
 <script
