@@ -81,3 +81,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 5. Seed data into database.  First make a model using terminal by using php artisan make:model.  Name model Product and use -m flag to create a migration file. (php artisan make:model Product -m)
 
+6. Make seeder file by using php artisan make:seed.  Name file ProductTableSeeder.  (php artisan make:seed ProductTableSeeder)
+
