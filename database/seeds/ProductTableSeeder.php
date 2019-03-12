@@ -11,6 +11,8 @@ class ProductTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        //create the intial products we want to have
+        $product = new \app\Product();
+        
     }
 }
